@@ -35,7 +35,7 @@ export default defineComponent({
             )
         })
         const todoList = h('div', {}, todoItem)
-        return h('div', {}, [input, todoList])
+        return h('div', {}, ['render:', input, todoList])
     }
 })
 </script>
